@@ -24,7 +24,6 @@ function StepList() {
           <a
             className="step-link"
             href={PARTNER_URL}
-            target="_blank"
             rel="noopener noreferrer nofollow sponsored"
           >
             <span className="step-number" aria-hidden="true">
@@ -90,7 +89,6 @@ export default function App() {
             <a
               className="register-button"
               href={PARTNER_URL}
-              target="_blank"
               rel="noopener noreferrer nofollow sponsored"
             >
               Registar agora <span aria-hidden="true">→</span>
