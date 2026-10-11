@@ -1,0 +1,1 @@
+- [Vite preview port collisions](vite-preview-port-collisions.md) — A duplicate workflow start can fail while the original Vite server still serves the app.

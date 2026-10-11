@@ -1,5 +1,5 @@
 const PARTNER_URL =
-  "https://abre.ai/tQf2";
+  "https://tracking.olabet.co.mz/C.ashx?btag=a_87b_7c_&affid=86&siteid=87&adid=7&c=";
 
 const STEPS = [
   {
