@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: aviator-bonus-landing-page
+    runtime: static
+    buildCommand: node scripts/prepare-render-lock.mjs && npm ci --registry=https://registry.npmjs.org && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 24.21.0
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
